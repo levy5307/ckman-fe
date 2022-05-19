@@ -6,8 +6,7 @@
                :auto-upload="false"
                :file-list="fileList"
                :on-change="changeFile"
-               :on-remove="removeFile"
-               accept=".rpm">
+               :on-remove="removeFile">
       <el-button type="primary"
                  class="mb-15">{{$t('homePackage.Upload RPMs')}}</el-button>
     </el-upload>
