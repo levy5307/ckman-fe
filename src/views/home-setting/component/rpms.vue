@@ -48,7 +48,7 @@ export default {
       entity.forEach((item) => {
         this.list.push({
           version: item,
-          files: `clickhouse-client-${item}-2.noarch.rpm,clickhouse-common-static-${item}-2.x86_64.rpm,clickhouse-server-${item}-2.noarch.rpm`,
+          files: `ClickHouse-${item}-prestable-310-g65d71fa-Linux.rpm`,
         });
       });
     },
